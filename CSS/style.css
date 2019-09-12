@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:#8b0000;
+    line-height: 1.6;
+
+}
+
+#showcase{
+    background-image: url('../img/back-view-bare-feet-beach-2889491.jpg');
+     background-size: cover;
+     background-position: center;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+
+#showcase h1{
+  font-size: 50px;
+  line-height:1.2; 
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+ .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #8b0000;
+    border: #8b0000 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background: #8b0000;
+    color: #fff;
+}
+
+#a{
+    padding: 20px;
+    background: #8b0000;
+    color: #fff;
+    text-align: center;
+}
+
+#b{
+    padding: 20px;
+    background: #f4f4f4;;
+    
+    text-align: center;
+}
+
+#c{
+    display:flex;
+    padding-top: 30px;
+}
+
+#c .box1, #c .box3 {
+    background: #8b0000;  
+    color: #fff;
+}
+
+#c div{
+    padding: 20px;
+}
+
+#c .box2{
+   background-color: #f9f9f9;
+
+}
+
+#nav-bar{
+    float: right;
+     display: block;
+     width: 60px;
+}
+
+
+h3{
+text-align: center;
+
+}
+
+
+#footer{
+    padding-top: 30px;
+    
+}
